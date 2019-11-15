@@ -1,0 +1,351 @@
+/* Style sheet created by: Sharan Rai, Student’s First Sharan, Student’s Last Rai, 10/04/2018 */
+
+/* Style for body specifies a background color */
+body{
+	background-color: #EDE9CE;
+	}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center-aligns content*/
+header {
+	margin-top: 0.2em;
+	background-color: #C7AD88;
+	border-radius: 0.5em;
+	text-align: center;
+}
+h1{
+	color: orange;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+h2{
+	color: #ddd;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+/*Style to create a fluid image */
+img {
+	max-width: 100%;
+}
+
+/* Styles for Mobile Layout */
+	
+/* Style for container centers the page and sets the element width */
+#container{
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+/* Style for the nav specifies text properties */
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Style specifies padding and margins for unordered list */
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+nav li {
+	background-color:#00000F;
+	border-radius: 2em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
+}
+
+/* Style changes navigation link text color to white and removes the underline */
+nav li a {
+	color: #FFFFFF;
+	text-decoration:none;
+}
+
+/* Style displays the mobile class */
+.mobile{
+	display: inline;
+}
+
+/* Style hides the desktop class*/
+.tablet{
+	display: none;
+}
+
+/* Style for the main element specifies a block display, text properties, margins, padding, rounded corners, and border properties */
+main {
+	display: block;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 1em;
+	border-radius: 1em;
+	background-color: #FFFFFF;
+	border-top: solid 0.2em #009933;
+	
+}
+
+
+/* Style for footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+/* Style hides the tablet class */
+.tablet {
+	display: none;
+}
+
+table,th, td{
+	border: 5px solid #000000;
+	padding: 1em;
+	margin: 0;
+	margin-left:auto;
+	margin-right:auto;
+ }
+ 
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+caption, th{
+	font-size: 2em;
+	color: #feb47b;
+	font-style: oblique;
+	}
+tr:nth-child(even) {background: #DDD}
+tr:nth-child(odd) {background: #FFF}
+
+tr:hover {
+          background-color: #ffff99;
+        }
+
+
+
+/* Media query for tablet viewport targets screen size with a minimum width of 660px. */
+
+@media only screen and (min-width: 660px){
+	
+/* Style specifies a horizontal display for navigation links */	
+nav li {
+	display: inline;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: 0;
+	padding-right: 0;
+	width: 16.6%;
+	white-space: nowrap;
+}
+
+/* Style specifies clear and top margin properties for the main element */
+main {
+	clear: left;
+	margin-top: 4em;
+	overflow: auto;
+}
+
+/* Style specifies to hide the mobile class */
+.mobile {
+	display: none;
+}
+
+/* Style specifies to display the desktop class */
+.desktop {
+	display: inline;
+}
+
+
+/* Style specifies to display the tablet class */
+.tablet {
+	display: block;
+}
+
+article {
+	background-color: #FFDEAD;
+	float: left;
+	margin: 0.5%;
+	padding: 0.5%;
+	text-align: center;
+	width: 31%;
+}
+
+aside {
+	background-color: #FFFFFF;
+	border-radius: 0 5em 5em 5em;
+	box-shadow: 1em 1em 1em #4C4F4D;
+	padding: 1.5em;
+	margin: 1em;
+}
+figure img:hover {
+	opacity: 1;
+}
+table,th, td{
+	border: 5px solid #000000;
+	margin: 0;
+	padding:0em;
+	margin-left:auto;
+	margin-right:auto;
+ }
+
+}
+
+/* Media query for desktop viewport targets screens with a minimum width of 830px. */
+
+@media only screen and (min-width: 830px) {
+	
+/* Style specifies a width for container */	
+#container {
+	width: 90%;
+}
+
+/* Style specifies margin and padding for the unordered list within the nav */
+nav ul {
+	margin: 0;
+	padding-left:0.20%;
+	padding-right:0.20%;
+}
+
+/* Style for navigation list items specifies a border radius, border, margin, width, and padding */
+nav li {
+	border-radius: 0;
+	border-top: solid #000000;
+	border-bottom:solid #000000;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	width: 31%;
+}
+
+/* Style for navigation links specifies display and padding */
+nav li a {
+	display: inline-block;
+	padding: 0.7em;
+}
+
+/* Style rules for pseudo-classes */
+nav li a:link {
+	color: #FFFFFF;
+}
+
+nav li a:visited {
+	color: #FFFF99;
+}
+
+nav li a:hover {
+	color: #FFFF00;
+	font-style: italic;
+}
+
+/* Style specifies border, shadow, margin, and padding for main element */
+main { 
+	border-style: none;
+	box-shadow: 0.5em 0.5em 0.5em #404040;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	color:C7AD88;
+}
+
+/* Style specifies left and right padding for paragraph elements within the main element */
+main p {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+
+header {
+	margin-top: 0.2em;
+	background-color: #C7AD88;
+	border-radius: 0.5em;
+	text-align: center;
+}
+
+h1{
+	color: orange;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+h2{
+	color: #ddd;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+			   
+
+}
+table,th, td{
+	border: 5px solid #000000;
+	padding: 1em;
+	margin: 0;
+	margin-left:auto;
+	margin-right:auto;
+ }
+
+
+.tablet {
+	display: block;
+}
+
+.mobile {
+	display: none;
+}
+}
+
+/* Style specifies a gradient for the body element */
+body {
+	background: -moz-linear-gradient(#FFFFFF, #FFFF99); /* Firefox */
+	background: -o-linear-gradient(#FFFFFF, #FFFF99); /* Opera */
+	background: -webkit-linear-gradient(#eacda3 , #eacda3 ); /* Chrome, Safari */
+	background: linear-gradient(#ff7e5f , #feb47b);
+	background-attachment: fixed;
+}

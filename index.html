@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--This Website template was created by: Sharan Rai c0745774-->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/index.css">
+	 <link rel="stylesheet" type="text/css" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+	<script src="js/jquery.highlight.js"></script>
+    <script src="slide_show.js"></script>
+	<title>Radio For You</title>
+	<meta charset="utf-8">
+	<script>
+    	$(document).ready(function() {
+		$("#vecta_menu").highlightMenu({
+        bgColor: '#000000', 
+        color: '#ffffff'
+    });
+}); 
+
+
+    </script>
+	<script>
+    	$(document).ready(function() {
+			$("#dame").accordion(
+				{ 
+					event: "mouseover",
+					heightStyle: "content",
+					collapsible: true 
+				});
+	    });
+	</script>
+</head>
+<body>
+	<div id = "container">
+
+		<!--Use the header area for websie name and logo-->
+		<header>
+			<h1>Welcome to RadCon. The Best in the World</h1>
+			<h2>Whatever happens, feel good!!</h2>
+			<a href = "index.html"><img src = "images/image5.jpg" alt = "Radio for you" ></a>
+		</header>
+	
+		<!--Use the nav area to add hyperlinks to other pages within the website-->
+		<nav>
+			<ul id ="vecta_menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="team.html">Team</a></li>
+				<li><a href="http://12.42.204.30:7180/genGrid.html">Products </a></li>
+				<li><a href="training.html">Training</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+			
+		</nav>
+
+		<!--Use the footer area to add the main content of the webpage-->	
+		<main>
+		
+			<p><b>Welcome to Radcon. We offer a wide variety of radio's for you. They are high Quality Products with great User experience</b></p>
+			
+			<h3>Product of the week</h3>
+				<div class = "centre"><p>144 / 430 MHz Dual Band C4FM<br>Digital / Analog FM Mobile Transceiver</p></div>
+				<div class = "centre"><img src="images/image1.jpg" alt="Product of the week"></div><br>
+			
+			
+			<h3>****Weekly Sales Slide Show****</h3>
+			
+		<section>
+		<h3 id="caption">Dual Band Radio</h3>
+		<div class ="centre"><img id="slide" src="images/image2.jpg" alt=""></div>
+		
+		<div id="slides"> 
+			<img src="images/image2.jpg" alt="Dual Band Radio" >
+			<img src="images/image3.jpg" alt="Radio with Amplifier" >
+			<img src="images/image4.jpg" alt="Single Band Radio" >
+			
+		</div>
+		
+		</section>
+		<section>
+           
+        <div id="dame">
+ 			<h4>What is jQuery?</h4>
+			<div>
+				<p>jQuery is a library of the JavaScript functions that you're most likely 
+			   	to need as you develop websites.
+				</p>
+			</div>
+			<h4>Why is jQuery becoming so popular?</h4>
+			<div>
+				<p>Three reasons:</p>
+				<ul>
+					<li>It's free.</li>
+					<li>It lets you get more done in less time.</li>
+					<li>All of its functions are cross-browser compatible.</li>
+				</ul>
+			</div>
+			<h4>Which is harder to learn: jQuery or JavaScript?</h4>
+			<div>
+				<p>For most functions, jQuery is significantly easier to learn 
+			    and use than JavaScript. But remember that jQuery is JavaScript.
+				</p>
+			</div>
+        </div>
+    </section>
+			
+		</main>
+	
+		<!--Use the footer area to add webpage footer content-->
+		<footer>
+			&copy; Copyright 2099. All Rights Reserved.<br>
+			<a href="mailto:info@your_company_name.com">Request information</a></br>
+			Sharan Rai &nbsp; &nbsp; c0745774
+		</footer>
+	
+	<div id = "container">
+	
+</body>
+</html>
